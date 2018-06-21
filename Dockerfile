@@ -4,5 +4,5 @@ RUN apk add --update \
     iperf \
     && rm -rf /var/cache/apk/*
 
-ENTRYPOINT ["iperf", "-s"]
+ENTRYPOINT ["iperf"]
 CMD []
